@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "sensmod",
+  "version": "${version}",
+  "name": "Sens Adjuster",
+  "description": "Adjust mouse sensitivity in-game with hotkeys or /sens.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.sens.SensClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
